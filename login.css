@@ -1,0 +1,131 @@
+body #wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    color:#00d3ac;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    direction: ltr;
+}
+
+
+
+#topBar>.container {
+    padding-right: 5px !important;
+    position: relative;
+    padding-left: 5px;
+    margin-right: 100;
+    margin-left: 10;
+    box-sizing: border-box;
+  }
+
+  #topBar.dark {
+    color: #ccc;
+    background-color: #00d3ac;
+    border-bottom-color: rgba(0,43,57,0.1);
+  }
+  #topBar {
+    text-align: center;
+    display: block;
+    background-color: #fff;
+    border-bottom: rgba(0,0,0,0.05) 1px solid;
+    border-bottom-color: rgba(0, 0, 0, 0.05);
+    display: block;
+    box-sizing: border-box
+  }
+
+  .container {
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+    margin-right: 1200px;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+
+  #header {
+    font-size: 14px;
+  }
+
+  #header #topNav a.logo {
+    height: 60px;
+    line-height: 90px;
+    height: 50px ;
+    line-height: 40px ;
+    }
+
+  #topNav a.logo {
+    height: 96px;
+    line-height: 96px;
+    overflow: hidden;
+    display: i
+    nline-block;
+  }
+
+  .logo{
+    margin-top: 4px;
+  }
+  #head2{
+    height: 80px;
+  }
+  
+  #topNav div.navig {
+    display: none !important;
+    animation: fadeIn .3s !important;
+    max-height: 100% !important;
+    height: 100%;
+    width: 100%;
+    position: fixed !important;
+    left: 0 !important;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 9999 !important;
+    overflow-y: scroll !important;
+    padding-top: 80px !important;
+    margin: 0 !important;
+    
+  }
+
+  #topMain {
+    background-color: #002b39;
+  }
+
+  .info{
+    color: #000000;
+  }
+
+  .inner-div{
+    text-align: center;
+    padding-top: 15px;
+  }
+  .para{
+    text-align: center;
+  }
+
+ .img1{
+  left:20px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px #00d3ac;
+  text-align: center;
+ }
+
+ 
+ .img2{
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px #00d3ac;
+ }
+
+ .ss{
+  text-align: center;
+ }
+
+ .link{
+  text-decoration: none;
+ }
+
+

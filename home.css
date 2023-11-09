@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#vdo{
+  position: absolute;
+  top: 100px;
+  left: 7.5px;
+  width: 100%;
+  height: auto;
+  
+}
+
+
+
+/* CSS for the text style */
+.text {
+  color: #42ddf5;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+
+  border-radius: 5px;
+}
+
+.overlayText {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 1;
+    font-family: stencil;
+  }
+  
+  .topText {
+    color: #0a0a0a;
+    font-size: 50px;
+    align-self: center;
+  
+  }
+
+  .sub{
+    font-size: 16px;
+    background-color: #067b8d;
+    border-radius: 4px;
+    color:#0a0a0a;
+  }
+
+  nav ul {
+    margin-right: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #00879c;
+    list-style-type: none;
+    padding: 32px;
+   
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    left: 600px;
+    color: rgb(11, 11, 11);
+    font-weight: 400px;
+    transition: color 0.3s ease;
+}
+
+.head1{
+  width: 100%;
+  height: 60px;
+  
+}
+
+.image{
+  padding-top: 10px;
+  text-align: right;
+}
+
+.img3{
+  text-align: center;
+}
+
+.p4{
+  left:20px;
+  text-align: center;
+}
+
+.btn1{
+  color:#000000;
+  text-decoration: none;
+}
+
+.h1{
+  text-align: center;
+}
+
+.div1{
+  text-align: center;
+}
+
+.last{
+  text-align: center;
+}
+
+.line{
+  background-color: #067b8d;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #050505;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+}
